@@ -28,7 +28,7 @@ done
     done 
 
 7. Use gettimeofday, localtime & strftime to display the time. (Refer print_time.c)
-
+done
 
 8. Use rlimit to limit the processor time for the process (Refer rlimit.c)
 
