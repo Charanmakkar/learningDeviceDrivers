@@ -7,10 +7,10 @@ Complete the below assignments in ls/SystemCalls:
 done
 
 2. Use access system call to check the executable permission for the file (Modify check_access.c)
-
+done
 
 3. Use fcntl to place the write lock on the file (Refer fcntl.c & complete the TODOS)
-
+done
 
 4. Use fcntl to place the read lock on the file and try the following:
   - Try running 2 programs with read lock and observe the behaviour
