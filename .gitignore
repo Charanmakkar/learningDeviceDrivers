@@ -1,5 +1,6 @@
 #VSCODE file
-SystemCalls/.vscode/
+.vscode/
+.vscode/*
 
 # Prerequisites
 *.d
