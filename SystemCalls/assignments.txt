@@ -24,8 +24,12 @@ done
 *didn't understood the concept*
 
 6. Get the status of the fcntl lock using F_GETLK (Enhance fcntl_wrlk.c)
-    (i) Acquire the fcntl write lock only if status of lock shows as unlocked, otherwise keep on retrying till the lock is available make sure to
-use the sleep during the busy waiting.
+    (i) Acquire the fcntl write lock only if status of lock shows as unlocked, otherwise keep on retrying till the lock is available make sure to use the sleep during the busy waiting.
+    done 
+
 7. Use gettimeofday, localtime & strftime to display the time. (Refer print_time.c)
+
+
 8. Use rlimit to limit the processor time for the process (Refer rlimit.c)
+
 9. Use sysinfo to get the information such as uptime, Total RAM, Free RAM and process count (Refer sysinfo.c & complete all the todos)
