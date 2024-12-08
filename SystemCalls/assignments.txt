@@ -14,9 +14,15 @@ done
 
 4. Use fcntl to place the read lock on the file and try the following:
   - Try running 2 programs with read lock and observe the behaviour
+  done
   - Try running one program with read lock and another write lock and observe the behaviour
+  done
     NOTE: Copy fnctl.c as fcntl_rd.c and make the above changes
+  done
+
 5. Use fcntl to place the write lock on the file region (copy fcntl.c as fcntl_wrlk.c)
+*didn't understood the concept*
+
 6. Get the status of the fcntl lock using F_GETLK (Enhance fcntl_wrlk.c)
     (i) Acquire the fcntl write lock only if status of lock shows as unlocked, otherwise keep on retrying till the lock is available make sure to
 use the sleep during the busy waiting.
