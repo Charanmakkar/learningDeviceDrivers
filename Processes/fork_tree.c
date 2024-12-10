@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 #include <sys/types.h>
 
 int main()
@@ -12,7 +13,7 @@ int main()
 	printf("3: This process id:%d\n", getpid());
 	fork();
 	printf("4: This process id:%d; Parent:%d\n", getpid(), getppid());
-	sleep(1);
+	// sleep(1);
 	printf("Hello World\n");
 	return 0;
 }

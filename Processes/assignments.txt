@@ -1,0 +1,33 @@
+Get into the GIT repository and update the same using 'git pull'. This would get the directory by name 'Processes'
+Complete following:
+done
+
+1. Print process and parent process id (Try pid.c)
+done 
+
+2. Use system function to print the ls -l results (Try system.c)
+done
+
+3. Use system function to print the ps -x results
+done 
+
+4. Demonstrate the usage of fork (try fork.c)
+done 
+
+5. Verify the fork tree (try fork_tree.c)
+done 
+
+6. Distinguishing Parent & Child process (Complete todos in fork_basic.c)
+done 
+
+7. Demonstrate the usage of execlp (execlp.c)
+8. Use execl to execute the exec_overlay program from exec_start (Complete todos in exec_start.c)
+9. WAP to demonstrate the usage of execv, execve and execle
+10. WAP to use fork & exec to have 2 processes executing different program (Complete todos in fork_execv.c)
+11. WAP to demonstrate the usage of vfork
+12. WAP to make the parent process wait for child process (Complete TODOS in wait.c)
+13. Enhance the above program to check if the child process exiting normally or abnormally
+14. Enhance the above program to create 2 child processes and wait for a particular child process
+15. WAP to demonstrate the zombie process (Complete the todos in zombie.c)
+16. WAP to demonstrate the orphan process and veriy if its adopted by Init(Complete the todos in orphan.c)
+
